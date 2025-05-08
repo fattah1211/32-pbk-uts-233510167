@@ -14,12 +14,6 @@
         <button @click="addTodo" class="add-btn" :disabled="!newTodo.trim()">
           <span class="plus-icon">+</span>
         </button>
-        <button 
-          @click="cancelTodo" 
-          class="cancel-btn"
-          v-if="newTodo.trim()"
-        >
-        </button>
       </div>
 
       <!-- Filter Section -->
@@ -178,16 +172,6 @@ export default {
   cursor: pointer;
   display: flex;
   align-items: center;
-}
-
-.cancel-btn {
-  position: absolute;
-  right: 120px;
-  background: none;
-  border: none;
-  color: var(--gray);
-  cursor: pointer;
-  font-size: 18px;
 }
 
 /* style untuk Filter Section */
