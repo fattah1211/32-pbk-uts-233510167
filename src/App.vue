@@ -155,7 +155,7 @@ export default {
   font-weight: 600;
 }
 
-/* Input Section */
+/* style untuk Input Section */
 .input-section {
   display: flex;
   gap: 10px;
@@ -191,7 +191,7 @@ export default {
   font-size: 18px;
 }
 
-/* Filter Section */
+/* style untuk Filter Section */
 .filter-section {
   display: flex;
   gap: 8px;
@@ -213,7 +213,7 @@ export default {
   color: #555;
 }
 
-/* Todo List */
+/* style untuk Todo List */
 .todo-list {
   list-style: none;
   margin-bottom: 20px;
@@ -229,7 +229,7 @@ export default {
   position: relative;
 }
 
-/* Custom Checkbox */
+/* style untuk Custom Checkbox */
 .checkbox-container {
   display: flex;
   align-items: center;
@@ -257,7 +257,7 @@ export default {
   margin-right: 10px;
 }
 
-/* Todo Text */
+/* style untuk Todo Text */
 .todo-text {
   flex: 1;
   font-size: 16px;
@@ -269,7 +269,7 @@ export default {
   color: gray;
 }
 
-/* Delete Button */
+/* style untuk delete button */
 .delete-btn {
   background: none;
   border: none;
