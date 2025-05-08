@@ -126,7 +126,7 @@ export default {
 
 .app {
   min-height: 100vh;
-  background: linear-gradient(#568ee3 0%, #c3cfe2 100%);
+  background: linear-gradient(#568ee3 0%, #ccd4e2 100%);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -142,10 +142,10 @@ export default {
 }
 
 .title {
+  color: black;
   text-align: center;
   margin-bottom: 23px;
-  font-size: 29px;
-  font-weight: 600;
+  font-size: 30px;
 }
 
 /* style untuk Input Section */
@@ -159,17 +159,15 @@ export default {
 .todo-input {
   flex: 1;
   padding: 13px 16px;
-  border: 2px solid var(--gray);
   border-radius: 10px;
   font-size: 15px;
 }
 
 .add-btn {
-  color: rgb(241, 237, 237);
-  border: none;
+  color: white;
+  background-color: #2e332e;
   border-radius: 10px;
   padding: 0 20px;
-  cursor: pointer;
   display: flex;
   align-items: center;
 }
@@ -177,9 +175,8 @@ export default {
 /* style untuk Filter Section */
 .filter-section {
   display: flex;
-  gap: 8px;
   margin-bottom: 20px;
-  background: #f0f0f0;
+  background: #fef8f8;
   padding: 6px;
   border-radius: 50px;
 }
@@ -189,11 +186,10 @@ export default {
   padding: 8px 12px;
   border: none;
   border-radius: 50px;
-  cursor: pointer;
   font-size: 15px;
   font-weight: 500;
   background: transparent;
-  color: #555;
+  color: black;
 }
 
 /* style untuk Todo List */
@@ -209,7 +205,6 @@ export default {
   margin-bottom: 10px;
   background: white;
   border-radius: 8px;
-  position: relative;
 }
 
 /* style untuk Custom Checkbox */
@@ -217,17 +212,12 @@ export default {
   display: flex;
   align-items: center;
   position: relative;
-  cursor: pointer;
   user-select: none;
   flex-grow: 1;
 }
 
 .checkbox {
   position: absolute;
-  opacity: 0;
-  cursor: pointer;
-  height: 0;
-  width: 0;
 }
 
 .checkmark {
@@ -244,7 +234,7 @@ export default {
 .todo-text {
   flex: 1;
   font-size: 16px;
-  color: var(--dark);
+  color: black;
 }
 
 .completed .todo-text {
@@ -257,7 +247,6 @@ export default {
   background: none;
   border: none;
   color: black;
-  cursor: pointer;
   font-size: 16px;
   padding: 4px;
 }
