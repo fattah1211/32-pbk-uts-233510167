@@ -119,7 +119,6 @@ export default {
 
 <style>
 :root {
-  --primary: #130d40;
   --dark: #12343d;
   --gray: #243c47;
 }
